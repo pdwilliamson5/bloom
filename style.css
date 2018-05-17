@@ -1,0 +1,195 @@
+body{
+  background:linear-gradient(to right,white,#78ead3 );
+}
+
+nav ul a,
+nav .brand-logo {
+  color: white !important;
+}
+
+p {
+  line-height: 2rem;
+}
+nav{
+  color:white;
+  background:transparent;
+}
+nav.shrink{
+  color:white !important;
+  opacity: .85;
+  background-color:rgb(157, 164, 226);
+  height: 60px;
+  padding-top:0px;
+}
+
+.brand-logo{
+  width:180px;
+  height: 70px;
+}
+.head-link{
+  color:white;
+}
+
+.button-collapse {
+  color: #ee6e73;
+}
+
+.header{
+  padding-bottom: 25px;
+  padding-right: 10px;
+  float: right;
+  font-weight: 400;
+
+}
+.bloom-text{
+ height:110px;
+ margin-top:95px;
+ margin-bottom:0;
+
+}
+
+.header{
+  margin-top:-20px;
+}
+
+
+.parallax-container {
+  background-size:cover;
+  min-height: 850px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+.service-banner{
+  font-family: 'Noto Sans', sans-serif;
+  background-color:#f88451;
+  color:white;
+}
+
+.card{
+  background: #78ead3;
+  margin:25px;
+  border-radius: 15px;
+  width:450px;
+}
+.card-box{
+  background:blue;
+}
+
+.a-box{
+  width:100%;
+  height: 300px;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+
+  .card{
+    margin-left:25px;
+    border-radius: 15px;
+    width:250px;
+  }
+}
+
+
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+  .parallax-container {
+    background:cover;
+    min-height: 300px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255,255,255,.9);
+  }
+    .parallax-container .section {
+      width: 100%;
+    }
+    .bloom-text{
+      height: 75px;
+     margin-top:50px;
+    
+     }
+
+     .card{
+      margin-left:45px;
+      margin-bottom:20px;
+      border-radius: 15px;
+      width:250px;
+    }
+    
+  
+  }
+
+
+
+.icon-block {
+  padding: 0 15px;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+
+
+
+
+ .parallax img 
+ {
+ 
+ 	 background-repeat: no-repeat;
+ 	 background-size: cover;
+ }
+ .parallax-container
+ {
+   
+ 	color:white;
+ }
+ @media only screen and (max-width : 600px) {
+  .parallax-container
+ {
+ 	color: white;
+ }
+
+ nav a.button-collapse
+ {
+ 	color:white;
+ }
+ 
+ .purple.lighten-1 {
+  background-color: #CC0066 !important;
+}
+.teal-text.text-lighten-2 {
+  color: #CC0066 !important;
+}
+.share-buttons{
+	list-style: none;
+}
+
+.share-buttons li{
+	display: inline;
+}
+nav
+{
+	overflow: visible;
+}
+nav li a {
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+}
