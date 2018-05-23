@@ -18,16 +18,16 @@ nav{
 }
 nav.shrink{
   color:white !important;
-  opacity: .65;
+ 
   background-color:black;
   height: 60px;
   padding-top:0px;
 }
-
-.brand-logo{
-  width:180px;
-  height: 70px;
+.side-nav{
+  background:#ee6e73;
+  z-index: 11;
 }
+
 .head-link{
   color:white;
 }
@@ -105,10 +105,18 @@ nav.shrink{
   font-family:'Poiret One', sans-serif;
   margin-right:50px;
 }
-.map{
-  padding:7px;
-  background:white;
-  margin-right: 50px;
+.map-responsive{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
 }
 .a-box{
   margin-top:150px;
@@ -160,7 +168,7 @@ nav.shrink{
   }
   .parallax-container {
     background:cover;
-    min-height: 300px;
+    min-height: 400px;
     line-height: 0;
     height: auto;
     color: rgba(255,255,255,.9);
@@ -170,9 +178,10 @@ nav.shrink{
     }
     .bloom-text{
       height: 75px;
-     margin-top:50px;
+     margin-top:0px;
     
   }
+  
  
 
    
