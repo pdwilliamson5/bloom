@@ -18,10 +18,14 @@ nav{
 }
 nav.shrink{
   color:white !important;
-  opacity: .65;
+ ;
   background-color:black;
   height: 60px;
   padding-top:0px;
+}
+.side-nav{
+  background:#ee6e73;
+  z-index: 11;
 }
 
 .head-link{
@@ -164,7 +168,7 @@ nav.shrink{
   }
   .parallax-container {
     background:cover;
-    min-height: 300px;
+    min-height: 400px;
     line-height: 0;
     height: auto;
     color: rgba(255,255,255,.9);
