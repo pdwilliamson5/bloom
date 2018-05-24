@@ -35,6 +35,9 @@ nav.shrink{
 .button-collapse {
   color: #ee6e73;
 }
+.brand-logo{
+  padding-top:10px;
+}
 
 .header{
   padding-bottom: 25px;
@@ -157,6 +160,9 @@ nav.shrink{
 
   .a-box{
     margin-top:25px;
+  }
+  .brand-logo{
+    margin-top:10px;
   }
 }
 
