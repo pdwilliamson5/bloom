@@ -1,12 +1,13 @@
 
 body{
-  background:linear-gradient(white, rgb(252, 244, 225));
+  background:linear-gradient(white, rgb(250, 246, 237));
 }
 
 
 nav ul a,
 nav .brand-logo {
-  color: #444;
+
+  color:white;
 }
 
 p {
@@ -16,9 +17,35 @@ p {
 .button-collapse {
   color: #ee6e73;
 }
+nav {
+  height: 70px;
+  background: transparent; 
+  display: block;
+  position: fixed;
+  width: 100%;
+  z-index: 99999;
+  transition: all ease .5s;
+}
+
+#logo {
+  color: #fff;
+
+  font-size: 18px;
+  transition: all ease .5s;
+}
+nav.shrink {
+  height: 40px;
+  transition: all ease .5s;
+  background: black; // Change background to black on scroll
+}
+
+nav.shrink #logo {
+  padding: 10px;
+  transition: all ease .5s;
+}
 
 .parallax-container {
-  min-height: 600px;
+  min-height: 650px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
@@ -40,11 +67,24 @@ p {
     
   }
   .header{
+    margin-right:10px;
     color:white;
+   
   }
- 
+
+  
+  .bloom-text{
+    margin-top:75px;
+   
+  }
+  .wax-text{
+  
+  
+  }
+
   
   .wax-pic{
+    background-color:green;
     padding:5px;
     background:linear-gradient(to bottom right,white,#78ead3 );
   }
@@ -114,6 +154,9 @@ p {
   .a-box{
     margin-top:25px;
   }
+  #logo{
+    margin-top:15px;
+  }
 }
 
 @media only screen and (max-width : 600px) {
@@ -131,7 +174,9 @@ footer.page-footer {
   margin: 0;
 }
 
-
+#logo{
+  margin-top:15px;
+}
 
 
  .parallax img 

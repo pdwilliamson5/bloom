@@ -3,52 +3,55 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-  <title>Parallax Template</title>
+  <title>Bloom Studio</title>
 
   <!-- CSS  -->
   <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
-
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
   <link href="https://fonts.googleapis.com/css?family=Raleway|Poiret+One" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Arimo|Asap|Bitter|Dosis|Noto+Sans|PT+Sans+Caption" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
+<div id="index-banner" class="parallax-container">
 <div id="navbar" class="navbar-fixed scrollspy">
-  <nav  class="white">
+
+  <nav  class="N/A transparent">
     <div class="nav-wrapper container">
-    	<div class="container"> <a href="#navbar" class="brand-logo"><img class="responsive-img" id="logo" src="images/lei2.png" style="height: 70px;"/></a></a></div>
+    	<div class="container"> <a href="#navbar" class="brand-logo"><img class="responsive-img" id="logo" src="images/lei2.png" style="height: 60px;"/></a></a></div>
      
-      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu" style="color:white;"></i></a>
       <ul class="right hide-on-med-and-down">
        
-        <li><a class="head-link" href="#services">Services</a></li>
-        <li><a class="head-link" href="#book">Book an Appointment</a></li>
-         <li><a class="head-link" href="#aboutus">About Me</a></li>
-        <li><a class="head-link" href="#contactus">Contact</a></li>
+        <li><a class="head-link waves-effect waves-green" href="#services">Services</a></li>
+        <li><a class="head-link waves-effect waves-green" href="#book">Book an Appointment</a></li>
+         <li><a class="head-link waves-effect waves-green" href="#aboutus">About Me</a></li>
+        <li><a class="head-link waves-effect waves-green" href="#contactus">Contact</a></li>
        
       </ul>
       <ul class="right side-nav  red lighten-1" id="mobile-demo">
-        <li><a class="head-link" href="#services">Services</a></li>
-        <li><a class="head-link" href="#book">Book an Appointment</a></li>
-        <li><a class="head-link" href="#aboutus">About Me</a></li>
-        <li><a class="head-link" href="#contactus">Contact</a></li>
+        <img class="responsive-img" src="images/flowers.jpg" style="height: 150px;" width="100%;">
+        <li><a class="head-link" style="color:white" href="#services">Services</a></li>
+        <li><a class="head-link"  style="color:white" href="#book">Book an Appointment</a></li>
+        <li><a class="head-link"  style="color:white" href="#aboutus">About Me</a></li>
+        <li><a class="head-link"  style="color:white" href="#contactus">Contact</a></li>
       </ul>
     </div>
   </nav>
   </div>
 
-  <div id="index-banner" class="parallax-container">
+ 
     <div class="section no-pad-bot">
         <div class="container">
             <div class="row">
-                <div class="bloom-text col s12">
-                  <div id="logo-an" data-aos="fade-in" data-aos-delay="400"	>
+                <div class="bloom-text col s12 center">
+                  <div id="logo-an animated infinite bounce"	>
                   <img class="responsive-img right" src="images/bloom4.png" >
                 </div>
                 </div>
-            </div>
-        <div class="row">
+            
+      
             <h4 class="header right-align">studio</h4>
         </div>
       </div>
@@ -68,19 +71,28 @@
     <br>
     <div class="container">
   <div class="row">
-      <div class="col s12 m6 l6">
-        <div class="wax-pic" data-aos="fade-right" data-aos-delay="400">
-            <img class="responsive-img wax" width="500px" src="images/wax.png" style="border solid:black;">
+      <div class="col s12 m4 l4">
+        <div class="wax-pic" data-aos="fade-right" data-aos-delay="450" style="margin-top:20px;">
+            <img class="responsive-img wax" width="600px" src="images/wax.png">
         </div>
       </div>
-      <div class="col s12 m6 l5">
-          <div class="wax-text" style="background-color:white; color:black;padding:25px;">
-            <h4>Waxing</h4>
+      <div class="col s6 m4 l4">
+          <div class="wax-text"style="margin-top:0px;">
+            <h4 class="right-align">Waxing</h4>
+            <h5>Women</h5>
             <p class="wax-text">  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took
             </p>
           </div>
-        </div>                 
+        </div>
+        <div class="col s6 m4 l4">
+            <div class="wax-text" style="background-color:white; color:black;padding:25px;">
+              <h5 style="margin-top:35px;">Men</h5>
+              <p class="wax-text">  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took
+              </p>
+            </div>
+          </div>                     
    </div>
    <div class="row">
       <div class="col s12 m6 l5">
@@ -93,7 +105,7 @@
         </div>  
         <div class="col s12 m6 l6">
             <div class="wax-pic2" data-aos="fade-left" data-aos-delay="400">
-                <img class="responsive-img wax" width="500px" src="images/micro.png" style="border solid:black;">
+                <img class="responsive-img wax" width="350px" src="images/micro.png" style="border solid:black;">
             </div>
           </div>       
    </div>
@@ -143,7 +155,7 @@
         
           <img src="images/leah.png" alt="A photograph of Leah"  class="curve"><h5>Hi I'm Leah.</h5>
         </div>
-          <p>This is kiwifruit: originally called “yang tao”, “melonette” or Chinese gooseberry. Cultivated in its fuzzy variety from Chinese imports, the fruit proved popular with American military servicemen stationed in New Zealand during World War II, with commercial export to the United States starting after the end of the war. In California, the fruit was rebranded as “kiwifruit” due to its resemblance to New Zealand’s national bird. However, it is not a “kiwi”, which is also the demonym for native New Zealanders. Saying “I’m going to eat a kiwi” implies that you are either a cannibal or planning to dine on an endangered flightless bird.</p>
+          <p>This is kiwifruit: originally called “yang tao”, “melonette” or Chinese gooseber ana d the things about me and other things. aadfa and farts and boogers the rafad adlfa df ladfaf adfadf </p>
           <br>
           <hr color="#36cae8">
         </div>
@@ -236,6 +248,17 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+  <script>
+    $(document).ready(function(){
+    $(window).scroll(function(){
+        if($(window).scrollTop()>300){
+            $('nav').addClass('green');
+        }else{
+            $('nav').removeClass('green');  
+        }
+    });
+})
+  </script>
   <script>
   $(document).ready(function(){
     $('.materialboxed').materialbox();
