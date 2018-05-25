@@ -3,8 +3,7 @@
 AOS.init({
 
 });
-var elem = document.querySelector('.side-nav');
-  var instance = new M.Sidenav(elem);
+
 
 
 

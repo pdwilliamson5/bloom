@@ -1,73 +1,24 @@
-body{
-  font-family: 'Noto Sans', sans-serif;
 
-  /* background:linear-gradient(to right,white,#78ead3 ); */
+body{
+  background:linear-gradient(white, rgb(252, 244, 225));
 }
+
 
 nav ul a,
 nav .brand-logo {
-  color: white !important;
+  color: #444;
 }
 
 p {
   line-height: 2rem;
 }
-nav{
-  color:white;
-  background:transparent;
-}
-nav.shrink{
-  color:white !important;
- 
-  background-color:black;
-  height: 60px;
-  padding-top:0px;
-}
-.side-nav{
-  background:#ee6e73;
-  z-index: 11;
-}
-
-.head-link{
-  color:white;
-}
 
 .button-collapse {
   color: #ee6e73;
 }
-.brand-logo{
-  padding-top:10px;
-}
-
-.header{
-  padding-bottom: 25px;
-  padding-right: 10px;
-  float: right;
-  font-weight: 400;
-
-}
-.bloom-text{
- height:110px;
- margin-top:95px;
- margin-bottom:0;
-
-}
-
-.header{
-  margin-top:-20px;
-}
-
 
 .parallax-container {
-  background-size:cover;
-  min-height: 850px;
-  line-height: 0;
-  height: auto;
-  color: rgba(255,255,255,.9);
-}
-.parallax-container2 {
-  background-size:cover;
-  min-height: 850px;
+  min-height: 600px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
@@ -75,79 +26,77 @@ nav.shrink{
   .parallax-container .section {
     width: 100%;
   }
-
-.service-banner{
-  margin-left:100px;
-  margin-top:100px;
-  font-family: 'Noto Sans', sans-serif;
-  font-weight:200;
-  background-color:white;
-  color:#00805d;
-}
-.service-text{
-  font-family: 'Poiret One', sans-serif;
-  font-variant: small-caps;
-  
-}
-
-.wax-pic{
-  padding:5px;
-  background:linear-gradient(to bottom right,white,#78ead3 );
-}
-.wax-pic2{
-  margin-top:50px;
-  padding:5px;
-  background:linear-gradient(to bottom left,white,#78ead3 );
-}
-
-#projects{
-  height: 450px;
- background: white;
-}
-.text{
-  font-family:'Poiret One', sans-serif;
-  margin-right:50px;
-}
-.map-responsive{
-  overflow:hidden;
-  padding-bottom:56.25%;
-  position:relative;
-  height:0;
-}
-.map-responsive iframe{
-  left:0;
-  top:0;
-  height:100%;
-  width:100%;
-  position:absolute;
-}
-.a-box{
-  margin-top:150px;
-}
-#circle-shape-example { 
-  font-family: Open Sans, sans-serif; 
-  margin: 2rem; 
-}
-#circle-shape-example p { 
-  line-height: 1.8; 
-}
-#circle-shape-example .curve { 
-  width: 33%; height: auto;
-  min-width: 100px;
+  .service-banner{
+    margin-left:100px;
+    margin-top:100px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight:200;
+    background-color:white;
+    color:#00805d;
+  }
+  .service-text{
+    font-family: 'Poiret One', sans-serif;
+    font-variant: small-caps;
+    
+  }
+  .header{
+    color:white;
+  }
  
-  float: left;
-  margin-right:2rem; 
-  border-radius: 50%;
-  -webkit-shape-outside:circle();
-  shape-outside:circle();
-}
-
-
-
-
-
-
-
+  
+  .wax-pic{
+    padding:5px;
+    background:linear-gradient(to bottom right,white,#78ead3 );
+  }
+  .wax-pic2{
+    margin-top:50px;
+    padding:5px;
+    background:linear-gradient(to bottom left,white,#78ead3 );
+  }
+  
+  #projects{
+    height: 450px;
+   background: white;
+  }
+  .text{
+    font-family:'Poiret One', sans-serif;
+    margin-right:50px;
+    margin-top:175px;
+  }
+  .map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+  }
+  .map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
+  .a-box{
+    margin-top:150px;
+  }
+  #circle-shape-example { 
+    font-family: Open Sans, sans-serif; 
+    margin: 2rem; 
+  }
+  #circle-shape-example p { 
+    line-height: 1.8; 
+  }
+  #circle-shape-example .curve { 
+    width: 33%; height: auto;
+    min-width: 100px;
+   
+    float: left;
+    margin-right:2rem; 
+    border-radius: 50%;
+    -webkit-shape-outside:circle();
+    shape-outside:circle();
+  }
+  
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
@@ -157,44 +106,21 @@ nav.shrink{
   #index-banner .section {
     top: 10%;
   }
-
+  .text{
+    font-family:'Poiret One', sans-serif;
+    margin-right:50px;
+   
+  }
   .a-box{
     margin-top:25px;
   }
-  .brand-logo{
-    margin-top:10px;
-  }
 }
-
-
 
 @media only screen and (max-width : 600px) {
   #index-banner .section {
     top: 0;
   }
-  .parallax-container {
-    background:cover;
-    min-height: 400px;
-    line-height: 0;
-    height: auto;
-    color: rgba(255,255,255,.9);
-  }
-    .parallax-container .section {
-      width: 100%;
-    }
-    .bloom-text{
-      height: 75px;
-     margin-top:0px;
-    
-  }
-  
- 
-
-   
-    
-  
-  }
-
+}
 
 
 .icon-block {
@@ -208,29 +134,25 @@ footer.page-footer {
 
 
 
-
  .parallax img 
  {
- 
  	 background-repeat: no-repeat;
  	 background-size: cover;
  }
  .parallax-container
  {
-   
- 	color:white;
+ 	color: black;
  }
  @media only screen and (max-width : 600px) {
   .parallax-container
  {
  	color: white;
  }
-
+}
  nav a.button-collapse
  {
- 	color:white;
+ 	color:black;
  }
- 
  .purple.lighten-1 {
   background-color: #CC0066 !important;
 }
@@ -252,6 +174,4 @@ nav li a {
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
-}
-
 }
