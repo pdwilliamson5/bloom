@@ -2,6 +2,10 @@
 body{
   background:linear-gradient(white, rgb(250, 246, 237));
 }
+.text{
+  margin:0;
+  padding:0;
+}
 
 
 nav ul a,
@@ -36,7 +40,7 @@ nav {
 nav.shrink {
   height: 40px;
   transition: all ease .5s;
-  background: black; // Change background to black on scroll
+  background: black; 
 }
 
 nav.shrink #logo {
@@ -77,22 +81,9 @@ nav.shrink #logo {
     margin-top:75px;
    
   }
-  .wax-text{
   
-  
-  }
 
-  
-  .wax-pic{
-    background-color:green;
-    padding:5px;
-    background:linear-gradient(to bottom right,white,#78ead3 );
-  }
-  .wax-pic2{
-    margin-top:50px;
-    padding:5px;
-    background:linear-gradient(to bottom left,white,#78ead3 );
-  }
+
   
   #projects{
     height: 450px;
@@ -135,6 +126,10 @@ nav.shrink #logo {
     border-radius: 50%;
     -webkit-shape-outside:circle();
     shape-outside:circle();
+  }
+  
+  .no-padding-bottom {
+    margin-bottom:0px !important
   }
   
 
