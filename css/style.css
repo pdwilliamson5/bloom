@@ -35,20 +35,21 @@ nav {
   transition: all ease .5s;
 }
 
-#logo {
+#logo { 
+  margin-bottom:15px;
   color: #fff;
-
   font-size: 18px;
   transition: all ease .5s;
 }
 nav.shrink {
-  height: 40px;
+  height: 70px;
   transition: all ease .5s;
-  background-color: black; 
+ background-color: rgb(255, 153, 94); 
 }
 
 nav.shrink #logo {
-  padding: 10px;
+  height: 75px;
+
   transition: all ease .5s;
 }
 
@@ -181,7 +182,7 @@ nav.shrink #logo {
     margin-top:25px;
   }
   #logo{
-    margin-top:15px;
+   
   }
   .micro{
    margin-left:50px;
@@ -215,7 +216,7 @@ footer.page-footer {
 }
 
 #logo{
-  margin-top:15px;
+  margin-top:25px;
 }
 
 
