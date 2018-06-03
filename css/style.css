@@ -3,7 +3,7 @@ body{
   background:linear-gradient(white, rgb(250, 246, 237));
 }
 .text{
-  margin:0;
+  margin:50px;
   padding:0;
 }
 
@@ -15,7 +15,11 @@ nav .brand-logo {
 }
 
 p {
-  line-height: 2rem;
+  line-height: 1.6; 
+  font-family: 'Noto Sans', sans-serif;
+  text-align: justify;
+  margin: 0;
+  font-size: 14px;
 }
 
 .button-collapse {
@@ -40,7 +44,7 @@ nav {
 nav.shrink {
   height: 40px;
   transition: all ease .5s;
-  background: black; 
+  background-color: black; 
 }
 
 nav.shrink #logo {
@@ -59,7 +63,6 @@ nav.shrink #logo {
   }
   .service-banner{
     margin-left:100px;
-    margin-top:100px;
     font-family: 'Noto Sans', sans-serif;
     font-weight:200;
     background-color:white;
@@ -92,7 +95,7 @@ nav.shrink #logo {
   .text{
     font-family:'Poiret One', sans-serif;
     margin-right:50px;
-    margin-top:175px;
+  
   }
   .map-responsive{
     overflow:hidden;
@@ -107,9 +110,7 @@ nav.shrink #logo {
     width:100%;
     position:absolute;
   }
-  .a-box{
-    margin-top:150px;
-  }
+
   #circle-shape-example { 
     font-family: Open Sans, sans-serif; 
     margin: 2rem; 
@@ -124,9 +125,39 @@ nav.shrink #logo {
     float: left;
     margin-right:2rem; 
     border-radius: 50%;
-    -webkit-shape-outside:circle();
+    -webkit-shape-inside:circle();
+    shape-outside:circle();
+  } 
+
+
+  .micro{
+    margin-right:100px;
+  }
+  .micro-text{
+  margin-left:100px;
+  }
+  #circle-shape-example-2 { 
+    font-family: Open Sans, sans-serif; 
+    margin: 2rem; 
+  }
+  #circle-shape-example-2 p { 
+    line-height: 1.8; 
+  }
+  #circle-shape-example-2 .curve { 
+    width: 33%; height: auto;
+    min-width: 175px;
+    background: #CC0066;
+    float: right;
+    margin-bottom:50px;
+    border-radius: 50%;
+    -webkit-shape-inside:circle();
     shape-outside:circle();
   }
+
+  .share-buttons{
+    display: inline;
+  }
+
   
   .no-padding-bottom {
     margin-bottom:0px !important
@@ -151,6 +182,20 @@ nav.shrink #logo {
   }
   #logo{
     margin-top:15px;
+  }
+  .micro{
+   margin-left:50px;
+  }
+  #circle-shape-example-2 .curve { 
+    margin-left:25px;
+    width: 33%; height: auto;
+    min-width: 100px;
+    background: #CC0066;
+    float: right;
+    margin-bottom:50px;
+    border-radius: 50%;
+    -webkit-shape-inside:circle();
+    shape-outside:circle();
   }
 }
 
