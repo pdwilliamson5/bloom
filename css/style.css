@@ -26,6 +26,7 @@ p {
   color: #ee6e73;
 }
 nav {
+ 
   height: 70px;
   background: transparent; 
   display: block;
@@ -36,7 +37,8 @@ nav {
 }
 
 #logo { 
-  margin-bottom:15px;
+  width:60px;
+  padding-top:15px;
   color: #fff;
   font-size: 18px;
   transition: all ease .5s;
@@ -85,8 +87,6 @@ nav.shrink #logo {
     margin-top:75px;
    
   }
-  
-
 
   
   #projects{
@@ -215,9 +215,7 @@ footer.page-footer {
   margin: 0;
 }
 
-#logo{
-  margin-top:25px;
-}
+
 
 
  .parallax img 
