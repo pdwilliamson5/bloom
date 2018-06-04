@@ -152,13 +152,13 @@
               <a class="red lighten-3 waves-light btn">Book Now</a>
         </div>
         <ul class="share-buttons">
-            <div data-aos="flip-up">
+            <div data-aos="flip-up" data-aos-delay="450">
             <li><a href="https://www.facebook.com/sharer/sharer.php?u=&t=" target="_blank" title="Share on Facebook"><img src="images/flat_web_icon_set/inverted/facebook.png" style="height:50px;"></a></li>Like us on Facebook
             </div>
-            <div data-aos="flip-up">
+            <div data-aos="flip-up"  data-aos-delay="550">
             <li><a href="https://twitter.com/intent/tweet?source=&text=:%20" target="_blank" title="Follow on Insta"><img src="images/flat_web_icon_set/inverted/instagram.png" style="height: 50px;"> </a></li>Follow us instagram
             </div>
-            <div data-aos="flip-up">
+            <div data-aos="flip-up"  data-aos-delay="650">
             <li><a href="https://instagram.com/share?url=" target="_blank" title="Follow us on Snapchat"><img src="images/flat_web_icon_set/inverted/snapchat.png" style="height:50px;"></a></li>See our Snaps
             </div>
           </ul>
@@ -293,6 +293,13 @@
             scrollTop: $(goto).offset().top
         }, 800);
     });
+    (function($){
+  $(function(){
+
+    $('.sidenav').sidenav();
+
+  }); 
+})(jQuery);
 
   </script>
 
