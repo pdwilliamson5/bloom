@@ -1,6 +1,7 @@
 
 body{
   background:linear-gradient(white, rgb(250, 246, 237));
+  font-family: 'Song Myung', serif;
 }
 .text{
   margin:50px;
@@ -16,10 +17,13 @@ nav .brand-logo {
 
 p {
   line-height: 1.6; 
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Song Myung', serif;
   text-align: justify;
   margin: 0;
-  font-size: 14px;
+  font-size: 17px;
+}
+ul.browser-default li {
+  list-style-type: inherit;
 }
 
 .button-collapse {
@@ -66,14 +70,14 @@ nav.shrink #logo {
   }
   .service-banner{
     margin-left:100px;
-    font-family: 'Noto Sans', sans-serif;
+   
     font-weight:200;
     background-color:white;
     color:#00805d;
   }
   .service-text{
-    font-family: 'Poiret One', sans-serif;
-    font-variant: small-caps;
+    font-family: 'Petit Formal Script', cursive;
+    /* font-variant: small-caps; */
     
   }
   .header{
@@ -98,18 +102,16 @@ nav.shrink #logo {
     margin-right:50px;
   
   }
-  .map-responsive{
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
-  }
+
   .map-responsive iframe{
     left:0;
     top:0;
     height:100%;
     width:100%;
     position:absolute;
+  }
+  .a-box{
+    margin-top:75px;
   }
 
   #circle-shape-example { 
@@ -198,12 +200,27 @@ nav.shrink #logo {
     -webkit-shape-inside:circle();
     shape-outside:circle();
   }
+  p {
+    line-height: 1.6; 
+    font-family: 'Song Myung', serif;
+    text-align: justify;
+    margin: 0;
+    font-size: 15px;
+  }
 }
 
 @media only screen and (max-width : 600px) {
   #index-banner .section {
     top: 0;
   }
+}
+.promo{
+  padding:15px;
+  
+}
+.a-box{
+  margin-left: 75px;
+  margin-bottom:50px;
 }
 
 
@@ -214,7 +231,6 @@ nav.shrink #logo {
 footer.page-footer {
   margin: 0;
 }
-
 
 
 
